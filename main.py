@@ -1,8 +1,8 @@
 import discord
-import os
+##import os
 import re
-import random
-import diggdict
+##import random
+import Diggdict
 ##import youtube_dl
 
 ##cogs = [music.music]
@@ -15,7 +15,7 @@ vc = None
 #Client object
 me = discord.Client()
 #command dictionary
-lib = diggdict.setup(me)
+lib = Diggdict.diggdict.setup(me)
 
 @me.event
 async def on_ready():
